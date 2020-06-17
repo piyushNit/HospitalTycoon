@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b51b1dbdc87a3a343a8b83148df5406f, type: 3}
+  m_Name: CarDataContainer
+  m_EditorClassIdentifier: 
+  carDataList:
+  - name: Normal Car
+    carType: 0
+    carPrefabs:
+    - {fileID: 987434083509320460, guid: 68ddcfbd68173a649ad0eadc42585ac5, type: 3}
+    - {fileID: 2267364735311208657, guid: 30444893ed7e0cd4394d5bcf4debd477, type: 3}
+    - {fileID: 7807634335662929440, guid: 8c90282e4273aad4786ec382027ba4f3, type: 3}
+    - {fileID: -5366075642970201512, guid: 1a477ae559823a340ac75f8970e0727f, type: 3}
+    - {fileID: 2894299861883111333, guid: 32342f2e639d52a43ab2ac3a36abe93d, type: 3}
+    - {fileID: 4513891910633774908, guid: acfcd2b3c24f21d4980c521a1371703b, type: 3}
+    - {fileID: 1486021977593072281, guid: e2af2b49f73f64b42934dd95e6e7b144, type: 3}
+    - {fileID: 4085938443832225925, guid: c23b29360e708944e9f5a67e3626466a, type: 3}
+    - {fileID: -7780323739724428224, guid: 10f6bb2f4524a1e4ebaa83025c66519c, type: 3}

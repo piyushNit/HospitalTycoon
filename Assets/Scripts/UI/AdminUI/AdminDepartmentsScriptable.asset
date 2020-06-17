@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 293295ed45d30aa45b6a5a819a06f44e, type: 3}
+  m_Name: AdminDepartmentsScriptable
+  m_EditorClassIdentifier: 
+  departmentDataList:
+  - title: ENT
+    departmentType: 0
+    sprIcon: {fileID: 21300000, guid: d394898b280ca3e42af03dff21a0ad1f, type: 3}
+    description: Ear, nose and throat are all connected. Provide basic treatment for
+      your patients. The first step to a successful hospital.
+    buyValue: 100
+  - title: Eye
+    departmentType: 5
+    sprIcon: {fileID: 21300000, guid: c614d9e886849fb469d0fae7b30f2602, type: 3}
+    description: Our eays are the most functional part of anyones body. Eye care will
+      boost the hospital's profits.
+    buyValue: 200
+  - title: Dentist
+    departmentType: 1
+    sprIcon: {fileID: 21300000, guid: 6183186106cbc52489f1b3d38c1c64a9, type: 3}
+    description: Dentists diagnose and treat dental issues and help patients develop
+      better oral hygiene regimens.
+    buyValue: 300
+  - title: Skin
+    departmentType: 10
+    sprIcon: {fileID: 21300000, guid: b5059c3d4908c3a45a36536237e80e63, type: 3}
+    description: Skin care is the range of practices that support skin integrity,
+      enhance its appearance and relieve skin conditions.
+    buyValue: 400
+  - title: Cardiology
+    departmentType: 8
+    sprIcon: {fileID: 21300000, guid: c2ec4f2077311f2449ec1281d5125d0c, type: 3}
+    description: Cardiology is a medical specialty and a branch of internal medicine
+      concerned with disorders of the heart.
+    buyValue: 500
+  - title: Surgery
+    departmentType: 2
+    sprIcon: {fileID: 21300000, guid: f92d5ddc16cfc99498375d7daa6cf20d, type: 3}
+    description: Cardiology is a medical specialty and a branch of internal medicine
+      concerned with disorders of the heart.
+    buyValue: 500
+  - title: Gynecology
+    departmentType: 3
+    sprIcon: {fileID: 21300000, guid: 6427e939339d53e47b5f087d0ddeefb5, type: 3}
+    description: Cardiology is a medical specialty and a branch of internal medicine
+      concerned with disorders of the heart.
+    buyValue: 600
+  - title: Padiatrics
+    departmentType: 4
+    sprIcon: {fileID: 21300000, guid: 83e3a778363abe24f9c52b455f9b98b3, type: 3}
+    description: Cardiology is a medical specialty and a branch of internal medicine
+      concerned with disorders of the heart.
+    buyValue: 700

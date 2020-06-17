@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a109bab25ad9fe4183f618f5e44d829, type: 3}
+  m_Name: FTUEDataContainer
+  m_EditorClassIdentifier: 
+  ftueDataList:
+  - ftueType: 1
+    message: "Hello there, Welcome  Congratulations on completing the construction
+      of your new hospital.\t"
+    sprDoctor: {fileID: 21300000, guid: f06f34612f3eba54ab5de61151c4b692, type: 3}
+    customData: 
+    waitTimeSec: 10
+    sprPosition: {x: 0, y: 0}
+  - ftueType: 2
+    message: Look here comes our first patient. :D
+    sprDoctor: {fileID: 0}
+    customData: CAMERA=x:35,y:13,z:-17;CAMFOLLOW=Target:FTUE_CAR,FollowTime:10
+    waitTimeSec: 10
+    sprPosition: {x: 0, y: 0}
+  - ftueType: 3
+    message: The patient just parked their car taking one parking spot.  More patietns
+      will be coming. So let's look at how the hospital functions.
+    sprDoctor: {fileID: 21300000, guid: 96365f47052c7f74b9a6f756af0bb176, type: 3}
+    customData: CAMFOLLOW=Target:FTUE_PATIENT,FollowTime:10;TIMEOUT=10
+    waitTimeSec: 10
+    sprPosition: {x: 0, y: 0}
+  - ftueType: 4
+    message: Look the patient is consulting the doctor, this will take some time depending
+      on the doctor's level
+    sprDoctor: {fileID: 21300000, guid: 34e77f7c406e4a541996e420bef5254e, type: 3}
+    customData: 
+    waitTimeSec: 10
+    sprPosition: {x: 0, y: 0}
+  - ftueType: 5
+    message: Great, our first patient is treated.  Now he will visit the pharmacy
+      and purchase medicine.
+    sprDoctor: {fileID: 21300000, guid: 5318ed63e349d5f4ea7b86af8d391e11, type: 3}
+    customData: 
+    waitTimeSec: 10
+    sprPosition: {x: 0, y: 0}
+  - ftueType: 6
+    message: Right now we only have an ENT clinic, but we'll expand the hospital step
+      by step.  Let's improve the ENT clinic and increase profit. Tap it!
+    sprDoctor: {fileID: 21300000, guid: 9fcdf8c83736c814a87a62b888cc4e59, type: 3}
+    customData: HAND=x:-185,y:125;CAMERA=x:10,z:-2
+    waitTimeSec: 10
+    sprPosition: {x: 0, y: 0}
+  - ftueType: 7
+    message: 
+    sprDoctor: {fileID: 0}
+    customData: HAND=x:303,y:-196
+    waitTimeSec: 10
+    sprPosition: {x: 0, y: 0}
+  - ftueType: 8
+    message: Improving the ENT clinic will give us more profit per patient so we can
+      develop our hospital.
+    sprDoctor: {fileID: 21300000, guid: f06f34612f3eba54ab5de61151c4b692, type: 3}
+    customData: CAMERA=x:5.5,y:14,z:-5.5
+    waitTimeSec: 10
+    sprPosition: {x: 0, y: 0}
+  - ftueType: 9
+    message: Oh no! The parking lot is full. We need to fix this to accommodate more
+      patients.
+    sprDoctor: {fileID: 21300000, guid: a7cccbab68d2f4a48986f84bf3339279, type: 3}
+    customData: CAMERA=x:7.7,y:13,z:-9.8
+    waitTimeSec: 10
+    sprPosition: {x: 0, y: 0}
+  - ftueType: 10
+    message: 
+    sprDoctor: {fileID: 0}
+    customData: HAND=x:-142,y:-162
+    waitTimeSec: 10
+    sprPosition: {x: 0, y: 0}
+  - ftueType: 11
+    message: 
+    sprDoctor: {fileID: 0}
+    customData: HAND=x:307,y:-215
+    waitTimeSec: 10
+    sprPosition: {x: 0, y: 0}
+  - ftueType: 12
+    message: Fantastic! We doubled the number of parking spaces. Now there is space
+      for more patients.
+    sprDoctor: {fileID: 21300000, guid: 9fcdf269c433da74d867223486fb4333, type: 3}
+    customData: 
+    waitTimeSec: 10
+    sprPosition: {x: 0, y: 0}
+  - ftueType: 13
+    message: But if we want more patients we have to invest in advertising. Tap the
+      button.
+    sprDoctor: {fileID: 0}
+    customData: HAND=x:307,y:-545
+    waitTimeSec: 10
+    sprPosition: {x: 0, y: 0}
+  - ftueType: 14
+    message: Great, that's enough for now.
+    sprDoctor: {fileID: 21300000, guid: f06f34612f3eba54ab5de61151c4b692, type: 3}
+    customData: 
+    waitTimeSec: 10
+    sprPosition: {x: 0, y: 0}
+  - ftueType: 15
+    message: Oops! It seems we have a problem helping the patients. They shoulden't
+      have to wait that long!
+    sprDoctor: {fileID: 21300000, guid: a7cccbab68d2f4a48986f84bf3339279, type: 3}
+    customData: 
+    waitTimeSec: 10
+    sprPosition: {x: 0, y: 0}
+  - ftueType: 16
+    message: Let's hire another receptionist to assist more patients. This will reduce
+      the line and make the payments faster. Tao the reception.
+    sprDoctor: {fileID: 21300000, guid: 635f5922077b3034888fe9ba2704897f, type: 3}
+    customData: 
+    waitTimeSec: 10
+    sprPosition: {x: 0, y: 0}
+  - ftueType: 17
+    message: 
+    sprDoctor: {fileID: 21300000, guid: 9fcdf269c433da74d867223486fb4333, type: 3}
+    customData: 
+    waitTimeSec: 10
+    sprPosition: {x: 0, y: 0}
+  - ftueType: 18
+    message: Perfect. Now we can take care of the patients faster, so they won't have
+      to wait so long.
+    sprDoctor: {fileID: 21300000, guid: 9fcdf269c433da74d867223486fb4333, type: 3}
+    customData: 
+    waitTimeSec: 10
+    sprPosition: {x: 0, y: 0}
+  - ftueType: 19
+    message: Tap the office to see all the different departments you can build and
+      really make the hospital grow.
+    sprDoctor: {fileID: 21300000, guid: f06f34612f3eba54ab5de61151c4b692, type: 3}
+    customData: 
+    waitTimeSec: 10
+    sprPosition: {x: 0, y: 0}
+  - ftueType: 20
+    message: But now we have to focus on the ENT clinic while making sure the reception
+      and parking lot run smoothly. That'll make us grow faster.
+    sprDoctor: {fileID: 21300000, guid: 9fcdf269c433da74d867223486fb4333, type: 3}
+    customData: 
+    waitTimeSec: 10
+    sprPosition: {x: 0, y: 0}
+  - ftueType: 21
+    message: If everything goes well, we'll be able to open a new hospital in a BIGGER
+      city.
+    sprDoctor: {fileID: 21300000, guid: f06f34612f3eba54ab5de61151c4b692, type: 3}
+    customData: 
+    waitTimeSec: 10
+    sprPosition: {x: 0, y: 0}
+  - ftueType: 22
+    message: 
+    sprDoctor: {fileID: 0}
+    customData: HAND=x:422,y:795;HANDFLIP=X
+    waitTimeSec: 10
+    sprPosition: {x: 0, y: 0}
+  sprHand: {fileID: 21300000, guid: ad3cf24263573b541bc694bf1d30887b, type: 3}
